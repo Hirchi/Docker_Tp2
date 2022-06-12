@@ -30,8 +30,5 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: user/app:latest
-      - 
-        name: Build the Docker image      
-        uses: actions/checkout@v3
-        run: docker build . --file docker.dockerfile --tag efrei-devops-tp2
+          tags: user/efrei-devops-tp2
+      
