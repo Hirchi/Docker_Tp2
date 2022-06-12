@@ -31,6 +31,9 @@ jobs:
         with:
           push: true
           run: docker build . -f .\docker.dockerfile -t  efrei-devops-tp2
+      - name: Build and push Docker images
+        uses: docker/build-push-action@v3.0.0
+
     
  
       
