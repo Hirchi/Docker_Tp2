@@ -24,5 +24,5 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: user/efrei-devops-tp2
+          tags: abdelhadihirchi/efrei-devops-tp2
       
