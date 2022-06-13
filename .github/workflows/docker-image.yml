@@ -28,6 +28,8 @@ jobs:
       -
         name: Hadolint Action
         uses: hadolint/hadolint-action@v2.0.0
+        with:
+          dockerfile: Dockerfile
       -
         name: Build and push
         uses: docker/build-push-action@v3
